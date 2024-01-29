@@ -1,0 +1,39 @@
+---
+title: "Exercise - 2b"
+author: "Alexandra Boville"
+date: "2024-01-29"
+output: html_document
+---
+
+# Lecture Notes
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r, eval=FALSE}
+2 + 2
+```
+
+## Reproducible Research
+
+Follow the principle of literate programming - document the *logic* behind the **analysis** and the **code**!
+
+## Coding Options for Code Chunks to Adjust Output in HTML
+
+1 - eval: evaluate the code chunk (if false, just echos the code in the output)   
+2 - echo: include the source code in output   
+3 - output: Include the results of executing the code in the output (true, false,or asis to indicate that the output is raw markdown and should not have any of Quarto’s standard enclosing markdown)   
+4 - warning: include warnings in output   
+5 - error: include errors in the output (not that this implies that errors executing code will not halt the processing of the document)   
+
+## Basic Math Coding
+
+### This Code adds three and five together
+
+```{r, output = TRUE}
+
+3 + 5
+
+```
+
+
+
